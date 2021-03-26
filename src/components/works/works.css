@@ -1,0 +1,19 @@
+.block__top {
+    display: flex;
+    width: 100%;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+.working {
+    flex-wrap: wrap;
+    background-color: white;
+    color: black;
+    padding: 20px;
+}
+.working .block__top h1 {
+    margin-left: 10px;
+}
+
+.text {
+    padding-top: 15px;
+}

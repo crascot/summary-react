@@ -1,0 +1,12 @@
+.container {
+    min-width: 360px;
+}
+.content {
+    background-color: #343944;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.block {
+    color: black;
+}

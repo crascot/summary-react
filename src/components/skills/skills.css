@@ -1,0 +1,26 @@
+.block {
+    background-color: white;
+    margin: 15px 0;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+.block__top {
+    display: flex;
+    width: 100%;
+    padding-bottom: 13px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+}
+
+.block h1 {
+    margin: 0;
+}
+.block h2 {
+    max-width: max-content;
+    width: 100%;
+    padding: 10px 0;
+    border-bottom: 3px solid #00e4b9;
+}
+.block p {
+    margin-left: 5px;
+}
