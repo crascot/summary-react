@@ -20,7 +20,7 @@ function Examples() {
         <Container fluid>
             <h2>Пример моей работы</h2>
             <div className='works'>
-                <Block classes={classes.porten} />
+                <Block classes={porten} />
             </div>
         </Container>
     )
