@@ -1,0 +1,22 @@
+.links {
+    max-width: 800px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.links a {
+    color: white;
+    text-decoration: underline;
+}
+
+.links a:hover {
+    color: white;
+}
+
+@media (max-width: 767px) {
+    .links a {
+        width: 100%;
+    }
+}
