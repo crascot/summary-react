@@ -1,5 +1,6 @@
 import React from 'react';
 import style from './info.module.css';
+import pdf from './summary.pdf';
 
 
 function Info() {
@@ -14,8 +15,7 @@ function Info() {
                 <a href="https://t.me/crascot">Telegram</a>
                 <a href="https://join.skype.com/invite/jw2FSUrQojO5">Skype</a>
                 <a href="https://github.com/crascot">Github</a>
-                <a href="https://gist.github.com/crascot">Github Gist</a>
-                <a href="summary.pdf" target='_blank'>PDF-файл</a>
+                <a href={ pdf } target='_blank'>PDF-файл</a>
             </div>
         </div>
     )

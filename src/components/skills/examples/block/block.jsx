@@ -14,7 +14,7 @@ function Block(props) {
                         <li>Bootstrap: {props.classes.info[2]}</li>
                     </ul>
                 </Card.Text>
-                <Button variant="primary" size="xs" block href="https://crascot.github.io/porten/">Ссылка на данный сайт</Button>
+                <Button variant="primary" size="xs" block href={props.classes.ref}>Ссылка на данный сайт</Button>
             </Card.Body>
         </Card>
     )
