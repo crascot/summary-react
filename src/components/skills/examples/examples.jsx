@@ -10,19 +10,22 @@ const classes = {
     porten: {
         image: porten,
         name: 'Porten',
-        info: ['да', 'нет', 'нет']
+        info: ['да', 'нет', 'нет'],
+        ref: 'https://crascot.github.io/porten/'
     },
 
     beauty: {
         image: beauty,
         name: 'Beauty',
-        info: ['да', 'да', 'нет']
+        info: ['да', 'да', 'нет'],
+        ref: 'https://crascot.github.io/beauty/'
     },
 
     itIndustry: {
         image: itIndustry,
         name: 'IT-industry',
-        info: ['да', 'да', 'да']
+        info: ['да', 'да', 'да'],
+        ref: 'https://crascot.github.io/IT-industry/'
     }
 }
 
