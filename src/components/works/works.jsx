@@ -2,19 +2,15 @@ import React from 'react';
 import Text from './text/text';
 import style from './works.module.css';
 
-const classes = {
-    getIn: {
+const classes = [
+    {
         title: 'Get-in progect',
         date: '06.2020 - 0.9.2020',
         text: 'Моя первая работа в команде, работал вместе с СЕО специалистом, дизайнером, бэкенд разработчиком и с другими верстальщиками. В ней я смог освоить github и gitlab.'
-    },
-
-    google: {
-        title: 'google',
-        date: 'in dreams',
-        text: 'never working in google'
     }
-}
+]
+
+let textData = classes.map(data => <Text classes={data} />)
 
 function Works() {
     return (
@@ -26,8 +22,7 @@ function Works() {
                 </svg>
                 <h1>Работа</h1>
             </div>
-
-            <Text classes={ classes.getIn } />
+            {textData}
         </div>
     )
 }

@@ -6,37 +6,44 @@ import porten from './block/image/porten.png';
 import beauty from './block/image/beauty.png';
 import itIndustry from './block/image/IT-industry.jpg';
 
-const classes = {  
-    porten: {
+const classes = [
+    {
         image: porten,
         name: 'Porten',
         info: ['да', 'нет', 'нет'],
-        ref: 'https://crascot.github.io/porten/'
+        reference: 'https://crascot.github.io/porten/'
     },
 
-    beauty: {
+    {
         image: beauty,
         name: 'Beauty',
         info: ['да', 'да', 'нет'],
-        ref: 'https://crascot.github.io/beauty/'
+        reference: 'https://crascot.github.io/beauty/'
     },
 
-    itIndustry: {
+    {
         image: itIndustry,
         name: 'IT-industry',
         info: ['да', 'да', 'да'],
-        ref: 'https://crascot.github.io/IT-industry/'
+        reference: 'https://crascot.github.io/IT-industry/'
     }
-}
+]
+
+let blockData =
+    classes.map(data => <Block image={data.image}
+        name={data.name}
+        info={data.info}
+        reference={data.reference}
+        />
+    );
 
 function Examples() {
+
     return (
         <Container fluid>
             <h2>Пример моей работы</h2>
-            <div className={ style.works }>
-                <Block classes={ classes.porten } />
-                <Block classes={ classes.beauty } />
-                <Block classes={ classes.itIndustry } />
+            <div className={style.works}>
+                {blockData}
             </div>
         </Container>
     )
