@@ -2,17 +2,10 @@ import React from 'react';
 import Text from './text/text';
 import style from './works.module.css';
 
-const classes = [
-    {
-        title: 'Get-in progect',
-        date: '06.2020 - 0.9.2020',
-        text: 'Моя первая работа в команде, работал вместе с СЕО специалистом, дизайнером, бэкенд разработчиком и с другими верстальщиками. В ней я смог освоить github и gitlab.'
-    }
-]
+function Works(props) {
+    
+    let textData = props.works.map(data => <Text classes={data} />)
 
-let textData = classes.map(data => <Text classes={data} />)
-
-function Works() {
     return (
         <div className={ style.working }>
             <div class={ style.block__top }>

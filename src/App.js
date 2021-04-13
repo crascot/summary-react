@@ -5,13 +5,12 @@ import './App.css';
 import Skills from './components/skills/skills';
 import Works from './components/works/works';
 
-
-function App() {
+function App(props) {
   return (
     <Container className='content'>
       <Head />
-      <Skills />
-      <Works />
+      <Skills examples={props.state.examples} />
+      <Works works={props.state.works} />
     </Container>
   );
 }
