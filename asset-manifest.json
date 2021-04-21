@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/summary/static/css/main.07a97d03.chunk.css",
+    "main.js": "/summary/static/js/main.c9b162b1.chunk.js",
+    "main.js.map": "/summary/static/js/main.c9b162b1.chunk.js.map",
+    "runtime-main.js": "/summary/static/js/runtime-main.4dfe3890.js",
+    "runtime-main.js.map": "/summary/static/js/runtime-main.4dfe3890.js.map",
+    "static/css/2.4c97ca4f.chunk.css": "/summary/static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b3b92286.chunk.js": "/summary/static/js/2.b3b92286.chunk.js",
+    "static/js/2.b3b92286.chunk.js.map": "/summary/static/js/2.b3b92286.chunk.js.map",
+    "index.html": "/summary/index.html",
+    "static/css/2.4c97ca4f.chunk.css.map": "/summary/static/css/2.4c97ca4f.chunk.css.map",
+    "static/css/main.07a97d03.chunk.css.map": "/summary/static/css/main.07a97d03.chunk.css.map",
+    "static/js/2.b3b92286.chunk.js.LICENSE.txt": "/summary/static/js/2.b3b92286.chunk.js.LICENSE.txt",
+    "static/media/IT-industry.b54d806c.jpg": "/summary/static/media/IT-industry.b54d806c.jpg",
+    "static/media/beauty.f76534f6.png": "/summary/static/media/beauty.f76534f6.png",
+    "static/media/face.2dfb24c6.jpg": "/summary/static/media/face.2dfb24c6.jpg",
+    "static/media/porten.9adfdce9.png": "/summary/static/media/porten.9adfdce9.png",
+    "static/media/summary.82a5e25f.pdf": "/summary/static/media/summary.82a5e25f.pdf"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4dfe3890.js",
+    "static/css/2.4c97ca4f.chunk.css",
+    "static/js/2.b3b92286.chunk.js",
+    "static/css/main.07a97d03.chunk.css",
+    "static/js/main.c9b162b1.chunk.js"
+  ]
+}
