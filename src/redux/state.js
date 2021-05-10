@@ -34,4 +34,27 @@ let state = {
     ]
 }
 
+export let addExample = (exampleData) => {
+    let example = {
+        image: exampleData,
+        name: exampleData,
+        info: exampleData,
+        reference: exampleData,
+    };
+
+    state.examples.push(example);
+}
+
+export let addWorks = (worksData) => {
+    let practice = {
+        title: worksData,
+        date: worksData,
+        text: worksData
+    };
+
+    state.works.push(practice);
+}
+
 export default state;
+
+console.log(addExample());

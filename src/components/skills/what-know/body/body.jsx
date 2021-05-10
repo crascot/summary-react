@@ -60,8 +60,8 @@ function WhatKnowBody() {
                 <b>Хочу изучить:</b>
                 <ul>
                     <li>Context</li>
-                    <li>Redux</li>
-                    <li>Saga</li>
+                    <li>Flux</li>
+                    <li>Redux + Saga</li>
                     <li>Hooks</li>
                 </ul>
             </div>

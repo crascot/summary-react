@@ -3,15 +3,9 @@ import { Container } from 'react-bootstrap';
 import Block from './block/block';
 import style from './examples.module.css';
 
-
 function Examples(props) {
-
     let blockData =
-    props.examples.map(data => <Block image={data.image}
-        name={data.name}
-        info={data.info}
-        reference={data.reference}
-        />
+    props.addExample.map(data => <Block addExample={data.addExample} />
     );
 
     return (

@@ -8,7 +8,7 @@ function Skills(props) {
     return (
         <div className='block'>
             <WhatKnow />
-            <Examples examples={props.examples} />
+            <Examples examples={props.examples} addExample={props.addExample} />
         </div>
     )
 }

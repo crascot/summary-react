@@ -9,7 +9,7 @@ function App(props) {
   return (
     <Container className='content'>
       <Head />
-      <Skills examples={props.state.examples} />
+      <Skills examples={props.state.examples} addExample={props.addExample} />
       <Works works={props.state.works} />
     </Container>
   );
