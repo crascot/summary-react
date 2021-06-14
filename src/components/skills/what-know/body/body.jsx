@@ -41,7 +41,6 @@ function WhatKnowBody() {
                 </ul>
                 <b>Хочу изучить:</b>
                 <ul>
-                    <li>TypeScript</li>
                     <li>jQuery</li>
                 </ul>
                 <hr></hr>
@@ -49,20 +48,21 @@ function WhatKnowBody() {
             <div>
                 <h2>React</h2>
                 <p>Я еще изучаю данную библиотеку, но уже знаю и
-                     практикую некоторые react инструменты, а именно
+                     практикую некоторые react инструменты, а именно:
                 </p>
                 <ul>
+                    <li>Состояние и методы жизненного цикла</li>
+                    <li>Использование хуков в функциональных компонентах</li>
                     <li>Компоненты и пропсы</li>
-                    <li>Использования методов массива</li>
-                    <li>css модули</li>
+                    <li>CSS модули</li>
                     <li>Использования библиотек компонентов: Bootstrap, Route</li>
                 </ul>
                 <b>Хочу изучить:</b>
                 <ul>
-                    <li>Context</li>
                     <li>Redux</li>
                     <li>Saga</li>
-                    <li>Hooks</li>
+                    <li>CSS in JS</li>
+                    <li>TypeScript</li>
                 </ul>
             </div>
         </div>
