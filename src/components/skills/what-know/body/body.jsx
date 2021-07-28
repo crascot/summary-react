@@ -55,13 +55,14 @@ function WhatKnowBody() {
                     <li>Использование хуков в функциональных компонентах</li>
                     <li>Компоненты и пропсы</li>
                     <li>CSS модули</li>
-                    <li>Использования библиотек компонентов: Bootstrap, Route</li>
+                    <li>Использования библиотек компонентов: Bootstrap, Route, Material-UI</li>
                 </ul>
                 <b>Хочу изучить:</b>
                 <ul>
                     <li>Redux</li>
                     <li>Saga</li>
                     <li>CSS in JS</li>
+                    <li>Ant Design</li>
                     <li>TypeScript</li>
                 </ul>
             </div>
